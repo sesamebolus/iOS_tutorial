@@ -41,7 +41,7 @@
     myImageView.layer.masksToBounds = YES;
     [self.view addSubview:myImageView];
     
-    UIButton *myButton = [[UIButton alloc] initWithFrame:CGRectMake(20, 380, 160, 44)];
+    UIButton *myButton = [[UIButton alloc] initWithFrame:CGRectMake(20, 380, 150, 44)];
     [myButton setTitle:@"按钮的文字" forState:UIControlStateNormal];
     [myButton.titleLabel setFont:[UIFont systemFontOfSize:17]];
     [myButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
@@ -52,6 +52,19 @@
     [myButton.layer setMasksToBounds:YES];
     [myButton.layer setCornerRadius:6];
     [self.view addSubview:myButton];
+    
+    UIButton *anotherButton = [[UIButton alloc] initWithFrame:CGRectMake(190, 380, 165, 44)];
+    [anotherButton setTitle:@"别点我" forState:UIControlStateNormal];
+    [anotherButton setTitleEdgeInsets:UIEdgeInsetsMake(0, 8, 0, 0)];
+    [anotherButton setContentEdgeInsets:UIEdgeInsetsMake(0, -12, 0, 0)];
+    [anotherButton setImage:[UIImage imageNamed:@"ic_diamond"] forState:UIControlStateNormal];
+    [anotherButton setImage:[UIImage imageNamed:@"ic_diamond"] forState:UIControlStateHighlighted];
+    [anotherButton setBackgroundImage:[UIImage imageNamed:@"button_blue"] forState:UIControlStateNormal];
+    [anotherButton setBackgroundImage:[UIImage imageNamed:@"button_orange"] forState:UIControlStateHighlighted];
+    [anotherButton.layer setMasksToBounds:YES];
+    [anotherButton.layer setCornerRadius:6];
+    [self.view addSubview:anotherButton];
+    
 }
 
 - (void)didReceiveMemoryWarning {

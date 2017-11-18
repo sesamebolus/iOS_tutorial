@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC4CEFCD1FBFE3BB008EA5B5 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4CEFCC1FBFE3BB008EA5B5 /* TextViewController.m */; };
 		ECD2FCAE1C90514700A4FD92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD2FCAD1C90514700A4FD92 /* main.m */; };
 		ECD2FCB11C90514700A4FD92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD2FCB01C90514700A4FD92 /* AppDelegate.m */; };
 		ECD2FCB41C90514700A4FD92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD2FCB31C90514700A4FD92 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC4CEFCB1FBFE3BB008EA5B5 /* TextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		EC4CEFCC1FBFE3BB008EA5B5 /* TextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
 		ECD2FCA91C90514700A4FD92 /* iOS_tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD2FCAD1C90514700A4FD92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ECD2FCAF1C90514700A4FD92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,6 +67,8 @@
 				ECD2FCBA1C90514700A4FD92 /* LaunchScreen.storyboard */,
 				ECD2FCBD1C90514700A4FD92 /* Info.plist */,
 				ECD2FCAC1C90514700A4FD92 /* Supporting Files */,
+				EC4CEFCB1FBFE3BB008EA5B5 /* TextViewController.h */,
+				EC4CEFCC1FBFE3BB008EA5B5 /* TextViewController.m */,
 			);
 			path = iOS_tutorial;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 				ECD2FCB41C90514700A4FD92 /* ViewController.m in Sources */,
 				ECD2FCB11C90514700A4FD92 /* AppDelegate.m in Sources */,
 				ECD2FCAE1C90514700A4FD92 /* main.m in Sources */,
+				EC4CEFCD1FBFE3BB008EA5B5 /* TextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
